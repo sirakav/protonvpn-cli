@@ -4,7 +4,6 @@ function initial_menu(){
   echo "[$] Loading..."
   check_if_profile_initialized
   check_if_openvpn_is_currently_running
-  check_if_strongswan_is_currently_running
   check_if_internet_is_working_normally
 
   response_output=$(wget --header 'x-pm-appversion: Other' \
