@@ -1,11 +1,10 @@
-*protonvpn-cli menu mod*
+*protonvpn-cli*
 ================
 
-![protonvpn-cli](https://i.imgur.com/H3wVnur.jpg)
+![protonvpn-cli](https://i.imgur.com/tDrwkX5l.png)
 
 # Overview #
-This is an extension to the original protonvpn-cli writen by Mazin Ahmed.
-It implements a menu which helps to navige and find servers that you need easier and faster.
+protonvpn-cli is a command-line tool for Linux and macOS.
 
 # Requirements #
 
@@ -22,7 +21,7 @@ The program automatically checks for missing requirements.
 # Installation #
 
 ```bash
-$ git clone "https://github.com/sirakav/protonvpn-cli"
+$ git clone "https://github.com/protonvpn/protonvpn-cli"
 $ cd protonvpn-cli
 $ sudo ./protonvpn-cli.sh --install
 ```
@@ -32,11 +31,11 @@ $ sudo ./protonvpn-cli.sh --install
 #### (via `git`) ####
 
 ```bash
-$ sudo bash -c "git clone https://github.com/sirakav/protonvpn-cli.git && ./protonvpn-cli/protonvpn-cli.sh --install"
+$ sudo bash -c "git clone https://github.com/ProtonVPN/protonvpn-cli.git && ./protonvpn-cli/protonvpn-cli.sh --install"
 ```
 #### (via `wget`) ####
 ```bash
-$ wget "https://github.com/ProtonVPN/sirakav/raw/master/protonvpn-cli.sh" -O "protonvpn-cli.sh" && sudo bash protonvpn-cli.sh --install
+$ wget "https://github.com/ProtonVPN/protonvpn-cli/raw/master/protonvpn-cli.sh" -O "protonvpn-cli.sh" && sudo bash protonvpn-cli.sh --install
 ```
 
 
@@ -46,8 +45,8 @@ $ wget "https://github.com/ProtonVPN/sirakav/raw/master/protonvpn-cli.sh" -O "pr
 | :-------------------------------------------- | :------------------------------------------------------------- |
 | `protonvpn-cli --init`                        | Initialize ProtonVPN profile on the machine.                   |
 | `protonvpn-cli -c, --connect`                 | Select and connect to a ProtonVPN server.                      |
-| `protonvpn-cli -m, --menu`					          | Select and connect to a ProtonVPN server from a menu.    			 |
 | `protonvpn-cli -c [server-name] [protocol]`   | Connect to a ProtonVPN server by name.                         |
+| `protonvpn-cli -m, --menu`                    | Select and connect to a ProtonVPN server from a menu.          |
 | `protonvpn-cli -r, --random-connect`          | Connect to a random ProtonVPN server.                          |
 | `protonvpn-cli -l, --last-connect`            | Connect to the previously used ProtonVPN server.               |
 | `protonvpn-cli -f, --fastest-connect`         | Connect to the fastest available ProtonVPN server.             |
